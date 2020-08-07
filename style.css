@@ -1,0 +1,45 @@
+.form-row {
+  padding: 10px 0;
+  display: flex;
+}
+
+.form-row label {
+  padding-right: 10px;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+.column-layout {
+  max-width: 1300px;
+  background-color: #fff;
+  margin: 40px auto 0 auto;
+  line-height: 1.65;
+  padding: 20px 50px;
+  display: flex;
+}
+
+.main-column {
+  flex: 2;
+  color: brown;
+  background-color: beige;
+}
+
+h1 {
+  text-decoration: underline;
+  margin: 5px;
+  padding: 0.4rem;
+}
+
+.sidebar-one {
+  flex: 4;
+  background-color: green;
+  color: orange;
+}
+
+.sidebar-two {
+  flex: 1;
+  color: #fff;
+  background-color: #bb3663;
+}
